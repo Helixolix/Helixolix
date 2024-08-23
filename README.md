@@ -6,4 +6,6 @@
 
 # Github Stats
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Helixolix&theme=tokyonight" alt="mystreak"/>
+
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Helixolix&show_icons=true&theme=radical)
