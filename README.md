@@ -1,25 +1,25 @@
 <h1 align="center">👋 Привет, я Helixolix</h1>
-<h3 align="center">💻 Java Developer | Game Dev | Backend</h3>
+<h3 align="center">💻 Java Developer | Backend | GameDev</h3>
 
 ---
 
 # 🚀 Обо мне
 
-- 🔭 Сейчас работаю над **Java проектами и играми**
-- 🌱 Изучаю **Spring, Backend разработку и GameDev**
-- ⚡ Люблю программирование, оптимизацию и создание проектов
-- 🎯 Цель: стать сильным **Java Backend Developer**
+- 🔭 Работаю с **Java**
+- 🌱 Изучаю **Spring**
+- 🎮 Люблю **GameDev**
+- ⚡ Создаю проекты и изучаю новые технологии
 
 ---
 
-# 🛠️ Мои навыки
+# 🛠️ Технологии
 
-<p align="center">
+<p>
 
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaFX-2E8B57?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaFX-2E8B57?style=for-the-badge"/>
 
 <br>
 
@@ -32,52 +32,36 @@
 
 ---
 
-# 📊 GitHub Статистика
+# 🔥 Серия коммитов
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Helixolix&show_icons=true&theme=tokyonight"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Helixolix&layout=compact&theme=tokyonight"/>
-
-</p>
-
----
-
-# 🔥 GitHub Streak
-
-<p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Helixolix&theme=tokyonight"/>
+
 </p>
 
 ---
 
-# 🏆 GitHub Achievements
+## 🐍 GitHub Snake
 
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Helixolix&theme=tokyonight&no-frame=true&margin-w=10"/>
-</p>
+![snake](https://github.com/Helixolix/Helixolix/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
 # 📈 Активность
 
 <p align="center">
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Helixolix&theme=tokyo-night"/>
+
 </p>
 
 ---
 
 # 📫 Связь
 
-<p align="center">
-
-<a href="https://github.com/Helixolix">
-<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github"/>
-</a>
-
-</p>
+GitHub: https://github.com/Helixolix
 
 ---
 
-⭐ **Спасибо за посещение моего профиля!**
+⭐ Спасибо за посещение моего профиля
