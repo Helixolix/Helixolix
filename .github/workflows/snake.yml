@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *" # каждые 12 часов
   workflow_dispatch:
 
 jobs:
@@ -10,13 +10,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: Platane/snk@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: Helixolix
-          outputs: |
-            dist/github-contribution-grid-snake.svg
+          outputs: dist/github-contribution-grid-snake.svg
 
-      - uses: crazy-max/ghaction-github-pages@v3
+      - name: Ensure output branch exists
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if git show-ref --verify --quiet refs/heads/output; then
+            echo "output branch exists"
+          else
+            git checkout --orphan output
+            git rm -rf .
+            echo "# Output branch" > README.md
+            git add README.md
+            git commit -m "Create output branch"
+            git push origin output
+            git checkout main
+          fi
+
+      - name: Deploy Snake to output branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist

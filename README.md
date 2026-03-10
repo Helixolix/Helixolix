@@ -45,7 +45,6 @@
 ## 🐍 GitHub Snake
 
 ![snake](https://github.com/Helixolix/Helixolix/blob/output/github-contribution-grid-snake.svg)
-
 ---
 
 # 📈 Активность
